@@ -1,0 +1,9 @@
+id1;Gigel Moruz;Horea
+id2;Maricica Ionescu;Octavian Goga
+id3;Oliva Donciu;Horea
+id4;Daniela Vidru;Ioan Bob
+id5;Ioana Marcu;Lucian Blaga
+id6;Lorena Nelu;Octavian Goga
+id7;Paula Stancu;Ioan Bob
+id8;Lucian Petrescu;Octavian Goga
+id9;Andrei Popescu;Horea

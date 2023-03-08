@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="484.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.socialnetworkgradlejavafx.controller.MembershipController">
+    <children>
+        <Pane layoutX="-2.0" prefHeight="484.0" prefWidth="787.0">
+            <children>
+                <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="351.0" layoutY="103.0" nodeOrientation="INHERIT"
+                           pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../socialbook.jpeg"/>
+                    </image>
+                </ImageView>
+                <Text fill="#cc2277" layoutX="294.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="SocialBook" textAlignment="CENTER">
+                    <font>
+                        <Font name="Gabriola" size="70.0"/>
+                    </font>
+                </Text>
+                <TextField fx:id="usernameTF" layoutX="50.0" layoutY="136.0" promptText="username"/>
+                <PasswordField fx:id="passwordTF" layoutX="50.0" layoutY="197.0" promptText="password"/>
+                <Button fx:id="logInButton" layoutX="50.0" layoutY="254.0" mnemonicParsing="false" onAction="#onLogin"
+                        prefHeight="25.0" prefWidth="149.0" text="Log In">
+                    <font>
+                        <Font name="System Bold" size="12.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="signUpButton" layoutX="50.0" layoutY="331.0" mnemonicParsing="false" onAction="#onSignUp"
+                        prefHeight="25.0" prefWidth="149.0" text="Sign Up" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="12.0"/>
+                    </font>
+                </Button>
+                <Text layoutX="19.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="If you don't have an account, sign up below!" textAlignment="RIGHT">
+                    <font>
+                        <Font name="System Bold" size="10.0"/>
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

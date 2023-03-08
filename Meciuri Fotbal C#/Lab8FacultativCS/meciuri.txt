@@ -1,0 +1,5 @@
+meci1;echipa1;Houston Rockets;echipa2;Los Angeles Lakers;12/26/2022 11:54:09 AM
+meci2;echipa2;Los Angeles Lakers;echipa3;LA Clippers;12/26/2022 12:00:01 PM
+meci3;echipa3;Chicago Bulls;echipa1;Houston Rockets;12/26/2022 11:13:23 AM
+meci4;echipa4;Cleveland Cavaliers;echipa2;Los Angeles Lakers;12/26/2022 10:13:19 AM
+meci5;echipa1;Houston Rockets;echipa4;Cleveland Cavaliers;12/26/2022 12:05:49 PM

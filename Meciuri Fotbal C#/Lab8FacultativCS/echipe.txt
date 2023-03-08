@@ -1,0 +1,5 @@
+﻿echipa1;Houston Rockets
+echipa2;Los Angeles Lakers
+echipa3;LA Clippers
+echipa4;Chicago Bulls
+echipa5;Cleveland Cavaliers

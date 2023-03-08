@@ -1,0 +1,9 @@
+id1;Gigel Moruz;Horea;echipa1;Houston Rockets
+id2;Maricica Ionescu;Octavian Goga;echipa2;Los Angeles Lakers
+id3;Oliva Donciu;Horea;echipa1;Houston Rockets
+id4;Daniela Vidru;Ioan Bob;echipa4;Chicago Bulls
+id5;Ioana Marcu;Lucian Blaga;echipa3;LA Clippers
+id6;Lorena Nelu;Octavian Goga;echipa2;Los Angeles Lakers
+id7;Paula Stancu;Ioan Bob;echipa4;Chicago Bulls
+id8;Lucian Petrescu;Octavian Goga;echipa2;Los Angeles Lakers
+id9;Andrei Popescu;Horea;echipa1;Houston Rockets

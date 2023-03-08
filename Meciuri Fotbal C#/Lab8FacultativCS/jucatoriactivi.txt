@@ -1,0 +1,8 @@
+id1;jucator1;meci1;2;PARTICIPANT
+id2;jucator2;meci1;0;REZERVA
+id5;jucator3;meci3;3;PARTICIPANT
+id6;jucator4;meci2;1;PARTICIPANT
+id9;jucator5;meci1;0;REZERVA
+id8;jucator8;meci2;0;REZERVA
+id7;jucator9;meci4;0;INACTIV
+id3;jucator10;meci1;9;PARTICIPANT

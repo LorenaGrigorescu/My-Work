@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetworkgradlejavafx.controller.MembershipController">
+    <children>
+        <Pane layoutX="-3.0" prefHeight="411.0" prefWidth="600.0">
+            <children>
+                <Text layoutX="125.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Become member" textAlignment="CENTER">
+                    <font>
+                        <Font name="Times New Roman" size="50.0" />
+                    </font>
+                </Text>
+                <Label layoutX="31.0" layoutY="106.0" text="First name*" />
+                <TextField fx:id="nameTF" layoutX="116.0" layoutY="102.0" promptText="first name" />
+                <Label layoutX="31.0" layoutY="140.0" text="Last name*" />
+                <TextField fx:id="lastnameTF" layoutX="116.0" layoutY="139.0" promptText="last name" />
+                <Label layoutX="31.0" layoutY="187.0" text="Email address*" />
+                <TextField fx:id="emailTF" layoutX="116.0" layoutY="183.0" promptText="email address" />
+                <Label layoutX="31.0" layoutY="236.0" text="Username*" />
+                <TextField fx:id="usernameTF" layoutX="116.0" layoutY="232.0" promptText="username" />
+                <Label layoutX="31.0" layoutY="297.0" text="Password*" />
+                <Label layoutX="31.0" layoutY="343.0" text="Confirmation password*" />
+                <Text layoutX="31.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* - The field must be filled in with information !" />
+                <Button fx:id="registerNow" layoutX="378.0" layoutY="183.0" mnemonicParsing="false" onAction="#onRegisterNow" prefHeight="25.0" prefWidth="138.0" text="Register now">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+                <PasswordField fx:id="passwordTF" layoutX="116.0" layoutY="285.0" promptText="password" />
+                <PasswordField fx:id="confirmationPasswordTF" layoutX="175.0" layoutY="339.0" promptText="confirmation password" />
+            <Button fx:id="returnToLogin" layoutX="378.0" layoutY="253.0" mnemonicParsing="false" onAction="#onReturnToLogin" prefHeight="25.0" prefWidth="138.0" text="Back to login">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
